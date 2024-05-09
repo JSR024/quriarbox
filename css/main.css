@@ -43,10 +43,10 @@ body{
     background: linear-gradient(30deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.15) 100%);
 }
 .nav__logo{
-    width: 56%;
+    width: 50%;
 }
 .nav__content{
-    width: 44%;
+    width: 50%;
 }
 
 .nav__content .menu{
@@ -223,5 +223,68 @@ body{
 #services .service__content .card-flex .card .learn-more:hover{
     background-color: #F95C19;
     color: white;
+}
+/* ========== */
+/* about-section */
+#about{
+    padding: 90px 0;
+}
+#about .count-flex{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+#about .count-flex h3{
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+#about .count-flex h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+#about .about__img{
+    background-image: url(../img/about.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 580px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    margin-top: 160px;
+}
+#about .about__img .img-overlay{
+    padding-top: 130px;
+    padding-bottom: 168px;
+    background-color: rgba(10, 9, 13, 0.8);
+    height: 100%;
+    text-align: center;
+}
+#about .about__img .img-overlay i{
+    font-size: 22px;
+    color: white;
+    padding: 24px;
+    background-color: #F95C19;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+#about .about__img .img-overlay h3{
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-top: 18px;
+    margin-bottom: 28px;
+}
+#about .about__img .img-overlay p{
+    font-size: 24px;
+    color: white;
+    width: 550px;
+    margin: auto;
 }
 /* ========== */
