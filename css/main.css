@@ -227,7 +227,7 @@ body{
 /* ========== */
 /* about-section */
 #about{
-    padding: 90px 0;
+    padding: 60px 0;
 }
 #about .count-flex{
     justify-content: space-between;
@@ -274,6 +274,7 @@ body{
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
+    cursor: pointer;
 }
 #about .about__img .img-overlay h3{
     font-size: 32px;
@@ -286,5 +287,134 @@ body{
     color: white;
     width: 550px;
     margin: auto;
+}
+/* ========== */
+/* testimonial-section */
+#testimonial{
+    padding: 90px 0;
+}
+#testimonial .heading{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    column-gap: 36px;
+    margin-bottom: 88px;
+}
+#testimonial .heading h2{
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#testimonial .heading h3{
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-top: 12px;
+}
+#testimonial .feedback{
+    padding: 32px 36px;
+    width: 870px;
+    margin: auto;
+    background-color: white;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+#testimonial .feedback h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+#testimonial .feedback p{
+    line-height: 145%;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+#testimonial .feedback .client-info{
+    align-items: center;
+    justify-content: space-between;
+}
+#testimonial .feedback .client-info .star{
+    column-gap: 4px;
+    color: #F95C19;
+}
+#testimonial .feedback .client-info .client{
+    align-items: center;
+    column-gap: 16px;
+    text-align: end;
+}
+#testimonial .feedback .client-info .client .res h5{
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+/* ========== */
+/* contact-section */
+#contact{
+    padding: 90px 0;
+}
+#contact .contact-flex{
+    width: 870px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+#contact .contact-flex .contact__content{
+    width: 50%;
+}
+#contact .contact-flex .contact__content h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+#contact .contact-flex .contact__content h3{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+#contact .contact-flex .contact__content h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+#contact .contact-flex .contact__form{
+ width: 48%;
+}
+#contact .contact-flex .contact__form .form-flex{
+    row-gap: 20px;
+}
+#contact .contact-flex .contact__form .form-flex .input{
+ display: block;
+ padding: 16px 20px;
+ width: 100%;
+ background: transparent;
+ border: 1px solid #8173824f;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -o-border-radius: 5px;
+ color: #261134;
+ font-size: 16px;
+}
+#contact .contact-flex .contact__form .form-flex .input{
+    resize: none;
+}
+#contact .contact-flex .contact__form .form-flex .form-btn{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background: #F95C19;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    border: none;
+    margin-top: 32px;
+    padding: 12px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
 }
 /* ========== */
