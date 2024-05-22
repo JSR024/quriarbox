@@ -507,3 +507,110 @@ body {
   cursor: pointer;
 }
 /* ========== */
+/* footer-part-one-section */
+.footer .part-one{
+  background-color: #222132;
+  padding: 84px 0;
+}
+.footer .part-one .newsletter{
+  justify-content: space-between;
+  align-items: start;
+}
+.footer .part-one .newsletter .left-side{
+  width: 40%;
+}
+.footer .part-one .newsletter .left-side h3{
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+.footer .part-one .newsletter .left-side p{
+  color: white;
+}
+.footer .part-one .newsletter .right-side{
+  width: 42%;
+}
+.footer .part-one .newsletter .right-side label{
+  font-size: 20px;
+  font-weight: 700;
+}
+.footer .part-one .newsletter .right-side .sub{
+  margin-top: 12px;
+}
+.footer .part-one .newsletter .right-side .sub input{
+  width: 388px;
+  padding: 16px 20px;
+  color: #817382;
+  background: none;
+  margin-right: 8px;
+  border: 1px solid #f95c19;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.footer .part-one .newsletter .right-side .sub .sub-btn{
+  padding: 14px 20px;
+  background: #f95c19;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+/* ========== */
+/* footer-part-two-section */
+.footer .part-two{
+  background-color: #2F2E41;
+  padding: 52px 0;
+}
+.footer .part-two .footer-nav{
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .part-two .footer-nav .left-side{
+  width: 15%;
+}
+.footer .part-two .footer-nav .left-side p{
+  margin-top: 12px;
+  font-weight: 600;
+}
+.footer .part-two .footer-nav .right-side{
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .part-two .footer-nav .right-side .mini-nav{
+  width: 30%;
+}
+.footer .part-two .footer-nav .right-side .mini-nav h4{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 16px;
+}
+.footer .part-two .footer-nav .right-side .mini-nav ul li{
+  font-weight: 600;
+  color: #817382;
+  margin-top: 8px;
+  cursor: pointer;
+}
+/* ========== */
+/* footer-part-three-section */
+  .footer .part-three{
+    background-color: #222132;
+    padding: 32px 0;
+  }
+  .footer .part-three .copyright{
+    justify-content: space-between;
+    align-items: center;
+  }
+/* ========== */
